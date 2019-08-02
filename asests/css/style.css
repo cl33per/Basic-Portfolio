@@ -93,6 +93,24 @@ hr {
   border: 1px solid #dddddd;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 section {
   padding: 20px;
 }
@@ -139,7 +157,7 @@ input[type=submit]:hover {
   width: 100%;
   text-align: center;
   color: #ffffff;
-  border-top: 10px solid #4aaaa5;
+  border-top: 8px solid #4aaaa5;
 }
 
 Teal color (used for headings and backgrounds): #4aaaa5
