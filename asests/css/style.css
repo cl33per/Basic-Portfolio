@@ -102,7 +102,8 @@ hr {
   float: left;
   width: 33.33%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  height: 300px;
+  /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
@@ -111,6 +112,7 @@ hr {
   display: table;
   clear: both;
 }
+
 section {
   padding: 20px;
 }
@@ -122,7 +124,6 @@ section {
   float: left;
   margin: 0px 20px 10px 0px;
 }
-
 
 /* Contact Section */
 input[type=text], select, textarea {
