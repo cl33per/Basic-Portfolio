@@ -4,6 +4,7 @@ body {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   background-image: url("../images/black_lozenge.png");
   margin: 0 auto;
+  height: 100;
 }
 
 h1, h2, h3, h4 {
@@ -23,7 +24,9 @@ hr {
   margin: 1em 0;
   padding: 0;
 }
-
+a{
+  color: #4aaaa5;
+}
 /* Style the header and some padding */
 .navbar-links {
   overflow: hidden;
@@ -91,6 +94,8 @@ hr {
   margin: 20px auto;
   background: #ffffff;
   border: 1px solid #dddddd;
+  clear: both;
+  display: block;
 }
 
 * {
@@ -103,7 +108,6 @@ hr {
   width: 33.33%;
   padding: 10px;
   height: 300px;
-  /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
@@ -115,13 +119,90 @@ hr {
 
 section {
   padding: 20px;
+  min-height: 600px;
+  height: 100%;
 }
+.about{
+
+}
+.about p{
+  padding: 20px 80px 20px 0px;
+
+}
+/* image section */
 .face {
-  max-width: 300px;
   border-radius: 5px;
   box-shadow: 3px 3px 5px 2px;
   float: left;
   margin: 0px 20px 10px 0px;
+  width: 50%;
+}
+/* social icons */
+
+.btn-outline {
+ margin-top: 15px;
+ border: solid 1px #bbbbbb;
+ font-size: 24px;
+ color: #bbbbbb;
+ background: 0 0;
+ transition: all .3s ease-in-out;
+}
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+  border: solid 1px #bbbbbb;
+  color: #000;
+  background: #bbbbbb;
+}
+
+.btn-social {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #bbbbbb;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 46px;
+}
+
+
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+  margin-left: -5px;
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.social-links {
+  -webkit-animation: fade-in-down 0.9s;
+  animation: fade-in-down 0.9s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+/* Animations */
+@-webkit-keyframes fade-in-down { 0%
+  { opacity: 0; -webkit-transform: translateY(-10px); transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+@keyframes fade-in-down {
+  0% { opacity: 0;
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  100% { opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
 }
 
 /* Contact Section */
