@@ -1,4 +1,20 @@
-/* Basic Porfolio 8.2.2019 by Codycodes */
+/* -------------------------------------------------------------------------
+Basic Porfolio 8.2.2019 by Codycodes
+
+[Table of Contents]
+1. Elements
+2. Header #header
+3. General Content CSS
+4. Contact Form
+5. Footer #footer
+
+
+
+
+
+--------------------------------------------------------------------------*/
+
+/* 1. Elements */
 html{
   height: 100%
 }
@@ -30,6 +46,14 @@ hr {
 a{
   color: #4aaaa5;
 }
+/*------------------------------------------------------------------------*/
+
+/* 2. Header  */
+#header {
+  background: #ffffff;
+  border: 1px solid #cccccc;
+}
+
 /* Style the header and some padding */
 .navbar-links {
   overflow: hidden;
@@ -85,13 +109,9 @@ a{
     float: none;
   }
 }
+/*------------------------------------------------------------------------*/
 
-#header {
-  background: #ffffff;
-  border: 1px solid #cccccc;
-}
-
-/* Start Content */
+/* 3.Content */
 .container {
   max-width: 960px;
   margin: 20px auto;
@@ -125,9 +145,7 @@ section {
   min-height: 600px;
   height: 100%;
 }
-.about{
 
-}
 .about p{
   padding: 20px 80px 20px 0px;
 
@@ -167,8 +185,6 @@ section {
   line-height: 46px;
 }
 
-
-
 .list-inline {
   padding-left: 0;
   list-style: none;
@@ -207,8 +223,9 @@ section {
     transform: translateY(0);
   }
 }
+/*------------------------------------------------------------------------*/
 
-/* Contact Section */
+/* 4. Contact Form */
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -233,6 +250,8 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
+/*------------------------------------------------------------------------*/
+/* 5. Footer */
 #footer {
   background: #666666;
   position: relative;
