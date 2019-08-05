@@ -232,7 +232,7 @@ input[type=submit]:hover {
 
 #footer {
   background: #666666;
-  position: fixed;
+  position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
