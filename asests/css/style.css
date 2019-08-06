@@ -118,11 +118,22 @@ a{
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
-  width: 33.33%;
-  padding: 10px;
+  width: 30%;
   height: 300px;
+  margin: 10px;
+  position: relative;
 }
 
+/* Caption portfolio */
+.column h2{
+  background: #4aaaa5;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin: 0;
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -153,8 +164,30 @@ section {
   margin: 0px 20px 10px 0px;
   width: 50%;
 }
-/* social icons */
+.port{
+  background-repeat: no-repeat;
+background-size: cover;
+}
+.port-1{
+  background-image: url("../images/ethan.jpg");
+}
+.port-2{
+  background-image: url("../images/everly.jpg");
+}
+.port-3{
+  background-image: url("../images/family.jpg");
+}
+.port-4{
+  background-image: url("../images/family2.jpeg");
+}
+.port-5{
+  background-image: url("../images/family3.jpg");
+}
+.port-6{
+  background-image: url("../images/family4.jpg");
+}
 
+/* social icons */
 .btn-outline {
  margin-top: 15px;
  border: solid 1px #bbbbbb;
