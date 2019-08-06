@@ -7,11 +7,6 @@ Basic Porfolio 8.2.2019 by Codycodes
 3. General Content CSS
 4. Contact Form
 5. Footer #footer
-
-
-
-
-
 --------------------------------------------------------------------------*/
 
 /* 1. Elements */
@@ -23,7 +18,7 @@ body {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   background-image: url("../images/black_lozenge.png");
   margin: 0 auto;
-  min-height: 100%;
+  height: 100%;
 }
 
 h1, h2, h3, h4 {
@@ -113,12 +108,7 @@ a{
 
 /* 3.Content */
 .container {
-  max-width: 960px;
-  margin: 20px auto;
-  background: #ffffff;
-  border: 1px solid #dddddd;
-  clear: both;
-  display: block;
+  height: 100%
 }
 
 * {
@@ -141,9 +131,14 @@ a{
 }
 
 section {
+  max-width: 960px;
+  margin: 50px auto;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  clear: both;
+  display: block;
   padding: 20px;
   min-height: 600px;
-  height: 100%;
 }
 
 .about p{
